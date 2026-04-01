@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // modern JS output
+    "module": "ESNext",                // use ES modules
+    "lib": ["DOM", "ESNext"],          // DOM and modern JS features
+    "jsx": "react-jsx",                // enable React JSX support
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                    // optional but recommended
+    "skipLibCheck": true               // skip type checking of libraries
+  },
+  "include": ["src/**/*"]              // include your source code
+}
